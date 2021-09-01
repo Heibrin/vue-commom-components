@@ -3,6 +3,10 @@ module.exports = {
   env: {
     node: true
   },
+  //配置 引用lodash中_ 全局可用 eslint不提示错误
+  "globals":{
+    "_":false
+  },
   'extends': [
     'plugin:vue/essential',
     'eslint:recommended'
