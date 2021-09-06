@@ -15,8 +15,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .mainContent {
-  height: 80%;
-  width: 80%;
-  background-color: cadetblue;
+  height: 88%;
+  width: 85%;
+  background-color: #dfe6e9;
 }
 </style>

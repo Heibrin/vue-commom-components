@@ -31,6 +31,7 @@ export default {
 <style lang="scss" scoped>
 .indexContent {
   height: 100%;
+  // background-color: #dfe6e9;
   .side {
     height: 100%;
   }
@@ -39,7 +40,7 @@ export default {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 85%;
     margin-left: 20%;
     & .ahead {
       width: 100%;

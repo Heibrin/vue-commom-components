@@ -32,8 +32,8 @@ export default {
   },
   mounted() {
     // console.log(!this.data.children);
-    console.log("1" + new Date());
-    console.log(this.item);
+    // console.log("1" + new Date());
+    // console.log(this.item);
   },
   props: {
     item: {

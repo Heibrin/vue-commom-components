@@ -1,5 +1,11 @@
 <template>
   <div class="aSideContent">
+    <el-row class="header" type="flex" justify="center">
+      <el-col :span="24">
+        <img src="/src/assets/logo.png" alt="" class="logo" />
+        <h4>Manage System</h4>
+      </el-col>
+    </el-row>
     <el-row>
       <el-col>
         <el-menu
@@ -36,7 +42,7 @@ export default {
       return this.$router.options.routes;
     },
     getCurrentPath() {
-      console.log(this.$router.path);
+      // console.log(this.$router.path);
       return this.$router.path;
     },
   },
@@ -55,8 +61,23 @@ export default {
 </script>
 <style lang="scss" scoped>
 .aSideContent {
-  width: 20%;
+  width: 15%;
   height: 100%;
-  background-color: bisque;
+  // background-color: #fab1a0;
+  & .el-menu-vertical-demo {
+    width: 100%;
+  }
+}
+::v-deep .navitems {
+  // background-color: #fab1a0;
+}
+::v-deep .header {
+  height: 12%;
+  text-align: center;
+  // line-height: 12%;
+  font-size: 22px;
+}
+::v-deep .navitems:visited {
+  // background-color: #ffeaa7;
 }
 </style>
